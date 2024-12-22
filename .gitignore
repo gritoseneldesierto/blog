@@ -1,2 +1,5 @@
 drafts
 
+# vim files
+*.swp
+

@@ -1,0 +1,73 @@
+html, body{
+    font-family: Verdana, sans-serif;
+/*    font-size: 15px; 
+/*    line-height: 1.5; */
+}
+
+body {
+    color	    : darkgrey;
+    background-color: black;
+}
+
+/* links */
+a:link  {
+    color	    : lightblue;
+    background-color: transparent;
+}
+
+a:visited{
+    color	    : darkcyan;
+    background-color: transparent;
+}
+
+a:hover{
+    color	    : red;
+    background-color: transparent;
+    text-decoration : underline;
+}
+
+a:active{
+    color	    : yellow;
+    background-color: transparent;
+    text-decoration : underline;
+}
+
+
+
+/* Como no tengo experiencia voy a usar como base el estilo 
+   de nixCraft. Lo iré modificando poco a poco a mi gusto. 
+ */
+@media all and (min-width:682px)
+{
+.container{
+    max-width:644px;
+    padding-left:0;
+    padding-right:0;
+    margin-left:auto;
+    margin-right:auto
+}
+}
+
+@media all and (min-width:706px)
+{
+.container{
+    max-width:100%;
+    padding-left:31px;
+    padding-right:31px;
+    margin-left:0;
+    margin-right:0
+}
+}
+
+@media all and (min-width:1102px)
+{
+.container{
+    max-width:1040px;
+    padding-left:0;
+    padding-right:0;
+    margin-left:auto;
+    margin-right:auto
+}
+}
+
+
