@@ -8,6 +8,18 @@ h1,h2,h3,h4,h5,h6{
     font-weight:400;
 }
 
+h1 {
+}
+
+h2 {
+    font-size : 1.5em;
+}
+
+h3 {
+    font-size : 1.2em;
+    font-style: italic;
+}
+
 body {
     color	    : darkgrey;
     background-color: black;
@@ -85,6 +97,43 @@ p {
 }
 
 
+.propuesta {
+    border: 1px solid darkgray;
+    border-radius: 10px;
+
+    box-shadow: 2px 4px 6px #eeeeee;
+
+    padding: 2em;
+    margin: 2em 0;
+
+    text-align: justify;
+
+    position: relative;
+}
+
+.propuesta:before{
+  content: "PROPUESTA";
+  font-style: italic;
+  color: #DCA740;
+  font-family: Raleway;
+  font-size: 1.3em;
+}
+
+.posdata{
+}
+.posdata:before{
+  content: "PD:";
+  font-style: italic;
+  color: #DCA740;
+  font-family: Raleway;
+  font-size: 1.1em;
+}
+
+.censurado:before{
+    content: "xxxx"
+}
+
+
 /************************************************************************
  *				NAVBAR
  ************************************************************************/
@@ -126,6 +175,10 @@ p {
   float: right;
 }
 
+
+/************************************************************************
+ *				MEDIA
+ ************************************************************************/
 /* Navigation menu (for mobile devices) */
 @media screen and (max-width: 700px) {
   .navbar_top a, .navbar_right{
