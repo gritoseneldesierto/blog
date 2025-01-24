@@ -12,7 +12,8 @@ h1 {
 }
 
 h2 {
-    font-size : 1.5em;
+    font-size : 1.4em;
+    font-style: italic;
 }
 
 h3 {
@@ -230,3 +231,24 @@ p {
 }
 }
 
+
+
+/************************************************************************
+ *				TABLES
+ ************************************************************************/
+
+table.zebra{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.zebra td, .zebra th{
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+.zebra tr:nth-child(even) {
+/*  background-color: darkgrey;*/
+}
