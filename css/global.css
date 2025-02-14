@@ -57,6 +57,12 @@ p {
     text-align: justify;
 }
 
+/* Esto no queda bien @_@
+ul, ol {
+    text-indent: 30px;
+    text-align: justify;
+}
+*/
 
 #blog_header{
     text-align: center;
@@ -131,7 +137,8 @@ p {
 }
 
 .censurado:before{
-    content: "xxxx"
+    /*content: "xxxx"*/
+    content: "\2588\2588\2588\2588\2588"
 }
 
 
