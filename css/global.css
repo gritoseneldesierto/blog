@@ -143,6 +143,29 @@ ul, ol {
 }
 
 
+
+.resumiendo{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+
+    box-shadow: 2px 4px 6px #eeeeee;
+
+    padding: 2em;
+    margin: 2em 0;
+
+    text-align: justify;
+
+    position: relative;
+}
+
+.resumiendo:before{
+  content: "RESUMIENDO";
+  font-style: italic;
+  color: #DCA740;
+  font-family: Raleway;
+  font-size: 1.3em;
+}
+
 /************************************************************************
  *				NAVBAR
  ************************************************************************/
